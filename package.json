@@ -28,7 +28,7 @@
     "sass": "^1.77.8",
     "styled-components": "^6.1.11",
     "tailwindcss": "^3.4.3",
-    "telegraf": "^4.8.1",
+    "telegraf": "^4.16.3",
     "uuid": "^9.0.1",
     "web-vitals": "^2.1.4"
   },
