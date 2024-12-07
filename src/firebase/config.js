@@ -5,7 +5,7 @@ import { getAuth, setPersistence, browserLocalPersistence } from 'firebase/auth'
 //* Add the Web App's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyCVQpdChpJdj0_ofFfP34zh9Z2Xv0noJfw",
-  authDomain: "maxitape-288d3.firebaseapp.com,"
+  authDomain: "maxitape-288d3.firebaseapp.com",
   projectId: "maxitape-288d3",
   storageBucket: "maxitape-288d3.firebasestorage.app",
   messagingSenderId: "231511867504",
