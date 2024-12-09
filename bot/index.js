@@ -5,7 +5,7 @@ const express = require("express");
 const app = express()
 app.use(express.json())
 const web_link = "https://maxitapbotlatestversion-three.vercel.app/";
-const community_link = "https://t.me/concept_developer";
+const community_link = "https://t.me/backend_creator";
 
 
 bot.start((ctx) => {
@@ -13,7 +13,7 @@ bot.start((ctx) => {
     const urlSent = `${web_link}?ref=${startPayload}`;
     const user = ctx.message.from;
     const userName = user.username ? `@${user.username}` : user.first_name;
-    ctx.replyWithMarkdown(`*Hey, ${userName}! I am @concept_developer , Welcome to CDPTap!*
+    ctx.replyWithMarkdown(`*Hey, ${userName}! I am @backend_creator , Welcome to CDPTap!*
 Mine CDPTap cryptocurrency easily and earn CDPTap tokens.
 
 Start mining now and be among the biggest players earning CDPtap tokens daily.
