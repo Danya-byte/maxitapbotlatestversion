@@ -44,7 +44,7 @@ project_path = r'C:\Users\danya\PycharmProjects\maxitapbotlatestversion'
 # Укажи имя выходного файла
 output_file = 'project_structure.txt'
 # Укажи папки, которые нужно включить в структуру
-included_folders = ['bot', 'src','Components','contex','firebase','hooks','pages',]  # Например, только папки 'src' и 'data'
+included_folders = ['bot', 'src','Components','contex','firebase','hooks','pages',"auth"]  # Например, только папки 'src' и 'data'
 
 # Создаем структуру
 create_project_structure(project_path, output_file, included_folders)
