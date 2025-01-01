@@ -4,12 +4,14 @@ import { getAuth, setPersistence, browserLocalPersistence } from 'firebase/auth'
 
 //* Add the Web App's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCVQpdChpJdj0_ofFfP34zh9Z2Xv0noJfw",
-  authDomain: "maxitape-288d3.firebaseapp.com",
-  projectId: "maxitape-288d3",
-  storageBucket: "maxitape-288d3.firebasestorage.app",
-  messagingSenderId: "231511867504",
-  appId: "1:231511867504:web:1373b04eeafbe37b5ab4b5",
+  apiKey: "AIzaSyAgJtj9bjBMiGvKzQMrkv5ik8yY1AKeqxg",
+  authDomain: "maxtap-d1684.firebaseapp.com",
+  databaseURL: "https://maxtap-d1684-default-rtdb.firebaseio.com",
+  projectId: "maxtap-d1684",
+  storageBucket: "maxtap-d1684.firebasestorage.app",
+  messagingSenderId: "404275512977",
+  appId: "1:404275512977:web:7974eabc47e7086da2e130",
+  measurementId: "G-243SLRR134"
 };
 
 //* Initialize Firebase
