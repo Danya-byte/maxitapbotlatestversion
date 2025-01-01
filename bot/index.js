@@ -32,7 +32,6 @@ More squad power, more CDPtap tokens.`, {
     });
   });
 
-  
   bot.launch();
   
 app.listen(3000, () => {
